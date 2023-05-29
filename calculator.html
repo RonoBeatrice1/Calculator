@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <p class="heading-calc">Calculator</p>
+      <div class="calculator_display">0</div>
+      <div class="calculator_keys">
+        <button class="key--operator" data-action="Add">+</button>
+        <button class="key--operator" data-action="Subtract">-</button>
+        <button class="key--operator" data-action="Multiply">*</button>
+        <button class="key--operator" data-action="Divide">/</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>0</button>
+        <button data-action="decimal">.</button>
+        <button data-action="clear">AC</button>
+        <button class="key--equal" data-action="calculate">=</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
+
+<!--Data attributes are special HTML attributes that begin with the prefix "data-". They allow you to store custom data or information within HTML elements. Data attributes provide a way to attach extra data to an element without affecting its standard functionality or rendering.-->
+
+<!--In the provided code, the data-action attribute is used to define a specific action associated with each button in the calculator interface. It provides a way to attach custom action information to the HTML elements. The value of the data-action attribute can be accessed and used by JavaScript code to determine the appropriate behavior or action to perform when the button is clicked.-->
